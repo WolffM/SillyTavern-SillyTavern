@@ -7111,6 +7111,7 @@ export function initOpenAI() {
             width: '100%',
             templateResult: getNanoGptModelTemplate,
             matcher: textValueMatcher,
+            dropdownCssClass: 'nanogpt-model-dropdown',
         });
         $('#completion_prompt_manager_popup_entry_form_injection_trigger').select2({
             placeholder: t`All types (default)`,

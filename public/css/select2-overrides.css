@@ -53,6 +53,10 @@
     max-height: 300px;
 }
 
+.nanogpt-model-dropdown .select2-results>.select2-results__options {
+    max-height: min(300px, 34vh);
+}
+
 .select2-container .select2-selection--multiple .select2-selection__choice__remove {
     padding: revert;
     border-right: 1px solid var(--SmartThemeBorderColor);
